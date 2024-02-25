@@ -1,4 +1,4 @@
-import { Component, OnChanges, SimpleChanges } from "@angular/core";
+import { Component, Input, OnChanges, SimpleChanges } from "@angular/core";
 
 @Component ({
     selector: 'pm-star',
@@ -7,7 +7,7 @@ import { Component, OnChanges, SimpleChanges } from "@angular/core";
 })
 
 export class StarComponent implements OnChanges {
-    rating: number = 4;
+    @Input() rating: number = 0;
     cropWidth: number = 75;  //75 porque es el maximo del width que pone en su html
 
     ngOnChanges(): void {
