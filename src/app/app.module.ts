@@ -16,7 +16,7 @@ import { RouterModule } from '@angular/router';
     AppComponent,
     WelcomeComponent,  
     ProductListComponent,
-    ConvertToSpacesPipe,
+    ConvertToSpacesPipe, 
     StarComponent,
     ProductsDetailComponent
   ],
