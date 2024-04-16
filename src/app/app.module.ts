@@ -21,8 +21,9 @@ import { ProductModule } from './products/product.module';
       {path: '', redirectTo: 'welcome', pathMatch: 'full'},
       {path: '**', redirectTo: 'welcome', pathMatch: 'full'}
     ]),
-    ProductModule
+    ProductModule //feature component
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent] //bootstrap component, (que tambien esta en las declarations)
+  // root component
 })
 export class AppModule { }
