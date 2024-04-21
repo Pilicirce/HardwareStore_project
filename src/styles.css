@@ -19,3 +19,7 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+.navbar-brand {
+  margin-left: 20px; 
+}
